@@ -1,7 +1,4 @@
 ﻿using System.Windows;
-using WinForms = System.Windows.Forms;
-using System.Windows.Forms;
-using System.Diagnostics;
 
 namespace GUI
 {

@@ -1,33 +1,10 @@
 import cv2
+import sys
 
 cargando =lambda columna, height: print(f"CARGANDO... {round(((columna*100)/height), 2)}")
 
 def image(_path):
     img = cv2.imread(_path)
-    return img
-
-def getBLUE(img):
-    height, width = len(img), len(img[0])
-    for columna in range(height):
-        cargando(columna, height)
-        for fila in range(width):
-            img[columna][fila][1], img[columna][fila][2] = 0, 0
-    return img
-
-def getRED(img):
-    height, width = len(img), len(img[0])
-    for columna in range(height):
-        cargando(columna, height)
-        for fila in range(width):
-            img[columna][fila][0], img[columna][fila][1] = 0, 0
-    return img
-
-def getGREEN(img):
-    height, width = len(img), len(img[0])
-    for columna in range(height):
-        cargando(columna, height)
-        for fila in range(width):
-            img[columna][fila][0], img[columna][fila][2] = 0, 0
     return img
 
 def getGRAY(img):
@@ -40,22 +17,8 @@ def getGRAY(img):
             img[columna][fila][0], img[columna][fila][1], img[columna][fila][2] = int(numAUX), int(numAUX), int(numAUX)
     return img
 
-def switch(select, img):
-    if (select == "red"):
-        newIMG = getRED(img)
-        return newIMG
-    elif(select == "blue"):
-        newIMG = getBLUE(img)
-        return newIMG
-    elif(select == "green"):
-        newIMG = getGREEN(img)
-        return newIMG
-    elif(select == "gray"):
-        newIMG = getGRAY(img)
-        return newIMG
-    else: print("Los colores admitidos son: red, green, blue, gray")
+def save(img, destination):
+    newIMG = getGRAY(image(img))
+    cv2.imwrite(f"{destination}/average.png", newIMG)
 
-def save(img, destination, color):
-    color.lower()
-    newIMG = switch(color, img)
-    cv2.imwrite(f"{destination}/{color}.png", newIMG)
+save(sys.argv[1], sys.argv[2])

@@ -48,10 +48,6 @@ C:\Users\edwin\OneDrive\Documentos\Universidad\Sistemas inteligentes\GUI\GUI\obj
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\GUI.exe.config
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\GUI.exe
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\GUI.pdb
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.dll
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.Modules.dll
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.SQLite.dll
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.Wpf.dll
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Dynamic.dll
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Scripting.dll
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Scripting.Metadata.dll
@@ -59,10 +55,6 @@ C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Sy
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.Memory.dll
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.xml
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.Modules.xml
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.SQLite.xml
-C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\IronPython.Wpf.xml
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Dynamic.xml
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Scripting.xml
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Scripting.Metadata.xml
@@ -92,3 +84,11 @@ C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\GU
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\GUI.exe
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\GUI.pdb
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\CliWrap.dll
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.ValueTuple.dll
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\CliWrap.xml
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.ValueTuple.xml

@@ -1,8 +1,4 @@
 ﻿using ModernDesign.Core;
-using System;
-using System.Runtime.CompilerServices;
-using System.Windows;
-using System.Windows.Forms;
 
 namespace GUI.MVVM.ViewModel
 {
@@ -44,8 +40,8 @@ namespace GUI.MVVM.ViewModel
                 CurrentView = ConvertVM;
             });
             // Close app
-            CloseApp = new RelayCommand(o => 
-            { 
+            CloseApp = new RelayCommand(o =>
+            {
                 System.Windows.Application.Current.Shutdown();
             });
         }

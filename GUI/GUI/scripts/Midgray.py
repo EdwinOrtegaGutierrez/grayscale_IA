@@ -1,4 +1,5 @@
 import cv2
+import sys
 
 cargando =lambda columna, height: print(f"CARGANDO... {round(((columna*100)/height), 2)}")
 
@@ -16,7 +17,8 @@ def getGRAY(img):
             img[columna][fila][0], img[columna][fila][1], img[columna][fila][2] = int(numAUX), int(numAUX), int(numAUX)
     return img
 
-def save(img, destination, color):
-    color.lower()
-    newIMG = getGRAY(img)
-    cv2.imwrite(f"{destination}/{color}.jpg", newIMG)
+def save(img, destination):
+    newIMG = getGRAY(image(img))
+    cv2.imwrite(f"{destination}/midgray.png", newIMG)
+
+save(sys.argv[1], sys.argv[2])
