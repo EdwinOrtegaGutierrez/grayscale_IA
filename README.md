@@ -4,8 +4,8 @@
 ![GUI](/README/GUI1.png)
 ![GUI](/README/GUI2.png)
 
-<img src="/README/test.jpg" width="90" height="90"/>
-<img src="/README/perro.png" width="90" height="90"/>
+<img src="/README/test.jpg" width="290" height="290"/>
+<img src="/README/perro.png" width="290" height="290"/>
 # Original Photos
 ![alt text](/README/test.jpg)
 ![alt text](/README/perro.png)
