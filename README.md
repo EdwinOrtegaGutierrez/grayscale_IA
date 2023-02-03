@@ -4,11 +4,12 @@
 ![GUI](/README/GUI1.png)
 ![GUI](/README/GUI2.png)
 
-<img src="/README/test.jpg" width="290" height="290"/>
-<img src="/README/perro.png" width="290" height="290"/>
 # Original Photos
-![alt text](/README/test.jpg)
-![alt text](/README/perro.png)
+<p align="left"> 
+    <img src="/README/test.jpg" width="290" height="290"/> 
+    <img src="/README/perro.png" width="290" height="290"/> 
+</p>
+
 ## Gray Average
 ![Gray Average](/README/grayAverage.jpg)
 ![Gray Average](/README/perroAverage.png)
