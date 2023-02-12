@@ -92,3 +92,5 @@ C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Cl
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\bin\Debug\System.ValueTuple.xml
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\HistogramView.g.cs
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\HistogramView.baml

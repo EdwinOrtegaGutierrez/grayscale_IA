@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/average.py")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/histogram.py")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/luminosity.py")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/midgray.py")]
 

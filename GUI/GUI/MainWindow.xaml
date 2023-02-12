@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI"
         mc:Ignorable="d" 
-        Height="600" 
-        Width="920"
+        Height="800" 
+        Width="1050"
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="Transparent"
@@ -52,6 +52,12 @@
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding ConvertViewCommand}"/>
+                <RadioButton Content="Histogram"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding HistogramViewCommand}"/>
             </StackPanel>
 
             <StackPanel Grid.Row="0" Grid.Column="2">

@@ -17,6 +17,9 @@
             <DataTemplate DataType="{x:Type viewModel:ConvertViewModel}">
                 <view:ConvertView/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:HistogramViewModel}">
+                <view:HistogramView/>
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
