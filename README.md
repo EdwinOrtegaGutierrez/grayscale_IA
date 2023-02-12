@@ -2,12 +2,14 @@
 #### This app is capable of converting a photograph to different grayscale filters, offering ease of use functions in an attractive and intuitive graphical interface.
 # GUI
 ## Home
-![GUI](/README/GUI1.png)
+<p align="center"><img src="/README/GUI1.png" width="450" height="450"/></p>
+
 ## Convert to Gray scale 
-![GUI](/README/GUI2.png)
+<p align="center"><img src="/README/GUI2.png" width="450" height="450"/></p>
+
 ## Histogram Calculation 
-![GUI](/README/GUI3.png)
-![GUI](/README/GUI4.png)
+<p align="center"><img src="/README/GUI3.png" width="450" height="450"/></p>
+<p align="center"><img src="/README/GUI4.png" width="450" height="450"/></p>
 
 # Filters
 ## Original Photos
