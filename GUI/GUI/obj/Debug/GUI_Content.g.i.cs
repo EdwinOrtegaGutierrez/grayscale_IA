@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/threshold.py")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/average.py")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/histogram.py")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scripts/luminosity.py")]

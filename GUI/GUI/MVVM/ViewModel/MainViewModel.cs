@@ -8,12 +8,14 @@ namespace GUI.MVVM.ViewModel
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand ConvertViewCommand { get; set; }
         public RelayCommand HistogramViewCommand { get; set; }
+        public RelayCommand ThresholdViewCommand { get; set; }
         public RelayCommand CloseApp { get; set; }
 
         // Create the diferent views between others
         public HomeViewModel HomeVM { get; set; }
         public ConvertViewModel ConvertVM { get; set; }
         public HistogramViewModel HistogramVM { get; set; }
+        public ThresholdViewModel ThresholdVM { get; set; }
 
         // Logic for change view
         private object _currentView;
@@ -31,6 +33,7 @@ namespace GUI.MVVM.ViewModel
             HomeVM = new HomeViewModel();
             ConvertVM = new ConvertViewModel();
             HistogramVM = new HistogramViewModel();
+            ThresholdVM = new ThresholdViewModel();
             CurrentView = HomeVM;
 
             // Change View in the panel
@@ -45,6 +48,11 @@ namespace GUI.MVVM.ViewModel
             HistogramViewCommand = new RelayCommand(o =>
             {
                 CurrentView = HistogramVM;
+            }
+            );
+            ThresholdViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = ThresholdVM;
             }
             );
             // Close app

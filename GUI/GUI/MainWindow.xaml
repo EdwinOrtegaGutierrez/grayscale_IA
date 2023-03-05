@@ -58,6 +58,12 @@
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding HistogramViewCommand}"/>
+                <RadioButton Content="Threshold"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding ThresholdViewCommand }"/>
             </StackPanel>
 
             <StackPanel Grid.Row="0" Grid.Column="2">
