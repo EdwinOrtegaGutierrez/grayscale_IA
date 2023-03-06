@@ -8,6 +8,8 @@
 ## Histogram Calculation 
 ![GUI](/README/GUI3.png)
 ![GUI](/README/GUI4.png)
+## Threshold
+![GUI](/README/GUI5.png)
 
 # Filters
 ## Original Photos
