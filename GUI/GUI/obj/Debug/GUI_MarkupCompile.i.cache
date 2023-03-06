@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\App.xaml
-5-374981116
-42036457653
-15249175966
+6-1836075083
+5263689915
+17574420954
 28-624391234
-MainWindow.xaml;MVVM\View\ConvertView.xaml;MVVM\View\HistogramView.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;
+MainWindow.xaml;MVVM\View\ConvertView.xaml;MVVM\View\HistogramView.xaml;MVVM\View\HomeView.xaml;MVVM\View\ThresholdView.xaml;Theme\MenuButtonTheme.xaml;
 
-False
+True
 
