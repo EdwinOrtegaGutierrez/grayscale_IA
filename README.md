@@ -33,3 +33,9 @@
     <img src="/README/grayMidgray.jpg" width="150" height="150"/> 
     <img src="/README/perroMidgray.png" width="150" height="150"/> 
 </p>
+
+## Threshold
+<p align="center"> 
+    <img src="/README/grayLuminosity.jpg" width="150" height="150"/> 
+    <img src="/README/Umbral.png" width="150" height="150"/> 
+</p>
