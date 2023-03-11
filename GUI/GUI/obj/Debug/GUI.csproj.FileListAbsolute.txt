@@ -96,3 +96,5 @@ C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MV
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\HistogramView.baml
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\ThresholdView.g.cs
 C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\ThresholdView.baml
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\LBPView.g.cs
+C:\Users\edwin\OneDrive\Documentos\Universidad\grayscale_IA\GUI\GUI\obj\Debug\MVVM\View\LBPView.baml

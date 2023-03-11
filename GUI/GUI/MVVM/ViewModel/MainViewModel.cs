@@ -9,6 +9,7 @@ namespace GUI.MVVM.ViewModel
         public RelayCommand ConvertViewCommand { get; set; }
         public RelayCommand HistogramViewCommand { get; set; }
         public RelayCommand ThresholdViewCommand { get; set; }
+        public RelayCommand LBPViewCommand { get; set; }
         public RelayCommand CloseApp { get; set; }
 
         // Create the diferent views between others
@@ -16,6 +17,7 @@ namespace GUI.MVVM.ViewModel
         public ConvertViewModel ConvertVM { get; set; }
         public HistogramViewModel HistogramVM { get; set; }
         public ThresholdViewModel ThresholdVM { get; set; }
+        public LBPViewModel LBPVM { get; set; }
 
         // Logic for change view
         private object _currentView;
@@ -34,32 +36,22 @@ namespace GUI.MVVM.ViewModel
             ConvertVM = new ConvertViewModel();
             HistogramVM = new HistogramViewModel();
             ThresholdVM = new ThresholdViewModel();
+            LBPVM = new LBPViewModel();
             CurrentView = HomeVM;
 
             // Change View in the panel
-            HomeViewCommand = new RelayCommand(o =>
-            {
-                CurrentView = HomeVM;
-            });
-            ConvertViewCommand = new RelayCommand(o =>
-            {
-                CurrentView = ConvertVM;
-            });
-            HistogramViewCommand = new RelayCommand(o =>
-            {
-                CurrentView = HistogramVM;
-            }
-            );
-            ThresholdViewCommand = new RelayCommand(o =>
-            {
-                CurrentView = ThresholdVM;
-            }
-            );
+            HomeViewCommand = new RelayCommand(o => { CurrentView = HomeVM; });
+
+            ConvertViewCommand = new RelayCommand(o => { CurrentView = ConvertVM; });
+
+            HistogramViewCommand = new RelayCommand(o => { CurrentView = HistogramVM; });
+
+            ThresholdViewCommand = new RelayCommand(o => { CurrentView = ThresholdVM; });
+
+            LBPViewCommand = new RelayCommand(o => { CurrentView = LBPVM; });
+
             // Close app
-            CloseApp = new RelayCommand(o =>
-            {
-                System.Windows.Application.Current.Shutdown();
-            });
+            CloseApp = new RelayCommand(o => { System.Windows.Application.Current.Shutdown(); });
         }
     }
 }

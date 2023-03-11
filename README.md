@@ -10,6 +10,8 @@
 ![GUI](/README/GUI4.png)
 ## Threshold
 ![GUI](/README/GUI5.png)
+## LBP
+![GUI](/README/GUI6.png)
 
 # Filters
 ## Original Photos
@@ -40,4 +42,10 @@
 <p align="center"> 
     <img src="/README/grayLuminosity.jpg" width="150" height="150"/> 
     <img src="/README/Umbral.png" width="150" height="150"/> 
+</p>
+
+## LBP
+<p align="center"> 
+    <img src="/README/LBP_Gray.png" width="150" height="150"/> 
+    <img src="/README/LBP_Histogram.png" width="150" height="150"/> 
 </p>

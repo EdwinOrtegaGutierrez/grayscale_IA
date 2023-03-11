@@ -24,6 +24,10 @@
             <DataTemplate DataType="{x:Type viewModel:ThresholdViewModel}">
                 <view:ThresholdView/>
             </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:LBPViewModel}">
+                <view:LBPView/>
+            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

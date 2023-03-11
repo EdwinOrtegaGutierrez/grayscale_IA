@@ -64,6 +64,12 @@
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding ThresholdViewCommand }"/>
+                <RadioButton Content="LBP Efect"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding LBPViewCommand }"/>
             </StackPanel>
 
             <StackPanel Grid.Row="0" Grid.Column="2">
