@@ -122,6 +122,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\View\LBPView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MVVM\View\ThresholdView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -135,6 +139,7 @@
     <Compile Include="MVVM\ViewModel\ConvertViewModel.cs" />
     <Compile Include="MVVM\ViewModel\HistogramViewModel.cs" />
     <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\LBPViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
     <Compile Include="MVVM\ViewModel\ThresholdViewModel.cs" />
     <Compile Include="MVVM\View\ConvertView.xaml.cs">
@@ -145,6 +150,9 @@
     </Compile>
     <Compile Include="MVVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\LBPView.xaml.cs">
+      <DependentUpon>LBPView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MVVM\View\ThresholdView.xaml.cs">
       <DependentUpon>ThresholdView.xaml</DependentUpon>
@@ -199,6 +207,7 @@
     <Resource Include="Images\imagen.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\LBP.py" />
     <Content Include="scripts\Threshold.py" />
     <Resource Include="Images\spreadsheet-app.png" />
     <Resource Include="Histogram_Images\histogram.png" />
